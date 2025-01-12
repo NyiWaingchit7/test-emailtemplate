@@ -1,0 +1,106 @@
+:root {
+  --primary-color: #21bd73;
+  --secondary-color: #2875b9;
+  --text-color: #333;
+  --background-color: #f4f4f4;
+  --white-color: #fff;
+  --border-color: #ddd;
+  --shadow-color: rgba(0, 0, 0, 0.1);
+}
+
+body {
+  font-family: "Arial", sans-serif;
+  line-height: 1.6;
+  color: var(--text-color);
+  background-color: var(--background-color);
+  margin: 0;
+  padding: 0;
+}
+
+.mail-container {
+  max-width: 600px;
+  margin: 20px auto;
+  background-color: var(--white-color);
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px var(--shadow-color);
+}
+
+h1 {
+  color: var(--primary-color);
+  margin-bottom: 30px;
+  font-size: 30px;
+  line-height: 45px;
+  text-align: center;
+}
+
+p {
+  margin-bottom: 20px;
+}
+
+.customer-info {
+  margin-top: 30px;
+  padding-right: 50px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.paynow-btn {
+  background-color: var(--primary-color);
+  border-color: var(--primary-color);
+  border-radius: 45px;
+  color: var(--white-color) !important;
+  padding: 8px 35px;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin: 0 10px;
+  text-decoration: none !important;
+}
+
+.tour-details {
+  margin-top: 30px;
+  border-top: 1px solid var(--border-color);
+  padding-top: 20px;
+}
+
+.contact-info {
+  margin-top: 30px;
+}
+
+.row {
+  width: 100%;
+  margin: 15px 0;
+}
+
+.col-12 {
+  width: 100%;
+  float: left;
+}
+
+.col-6 {
+  width: 50%;
+  float: left;
+}
+
+.clear-fix {
+  clear: both;
+}
+
+.mail-body {
+  padding: 20px;
+}
+
+.mail-footer {
+  text-align: center;
+  color: var(--white-color);
+  background-color: var(--secondary-color);
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.site-logo {
+  width: 200px;
+  margin-left: 100px;
+}
